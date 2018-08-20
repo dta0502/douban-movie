@@ -123,4 +123,4 @@ for i in range(0,481,20):
 total_df.to_csv('movie-0.csv', sep = ',', header = True, index = False)
 ```
 
-第一个参数是说把dataframe写入到D盘下的a.csv文件中，参数sep表示字段之间用’,’分隔，header表示是否需要头部，index表示是否需要行号。
+第一个参数是说把dataframe写入到movie-0.csv文件中，参数sep表示字段之间用’,’分隔，header表示是否需要头部，index表示是否需要行号。
